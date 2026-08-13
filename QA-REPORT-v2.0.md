@@ -40,4 +40,14 @@
 
 ## Release boundary
 
-Public GitHub scope is limited to final courseware, labs, source coverage, QA report, preview and README. `.env`, references, assessments, answer keys, QA renders, generated image source assets and build tooling are excluded.
+Public GitHub scope is limited to final courseware, activities, source coverage, QA report, preview and README. `.env`, references, assessments, answer keys, QA renders, generated image source assets and build tooling are excluded.
+
+## Post-rename verification
+
+On 13 August 2026, the repository root was renamed from `labs/` to `activities/`. The exact current package was rechecked after the rename:
+
+- `activities/` contains eight direct activity folders, eight instruction files, eight checklists and eight editable sample PPTX files; no `labs/` path remains.
+- Main deck: 132 slides; OOXML validation passed; zero step-by-step procedure markers.
+- All eight activity PPTX files and all six DOCX courseware/assessment files passed OOXML validation.
+- Activity-tree SHA-256: `f6095e0d20ef272e0bd04fc275c8e9e9b7acdc66c102217611f72f6da61e4f3e`.
+- The six published courseware files are byte-identical to the previously approved, rendered and visually inspected release.
