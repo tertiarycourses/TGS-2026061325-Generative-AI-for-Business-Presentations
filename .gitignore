@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.claude/
+.agent/
+.codex/
+assessment/
+references/
+reference/
+qa-renders/
+courseware/archive/
+courseware/assets/
+courseware/build/
+courseweare/
+*.tmp
+~$*
+
